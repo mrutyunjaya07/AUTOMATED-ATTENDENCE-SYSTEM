@@ -13,7 +13,7 @@ known_encodings = data["encodings"]
 known_names = data["names"]
 
 # Initialize video capture
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 
 # Create attendance file if not exists
 attendance_file = "attendance.csv"
