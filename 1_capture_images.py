@@ -21,7 +21,7 @@ if not os.path.exists(user_path):
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
 
 # Start webcam
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 count = 0
 
 print("\nCamera started. Press 's' to save image, 'q' to quit.")
